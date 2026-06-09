@@ -1,4 +1,8 @@
- multiply(int& multiplier, int& size, std::vector<int>& arr)
+#include <iosystem>
+#include <string>
+#include <vector>
+
+multiply(int& multiplier, int& size, std::vector<int>& arr)
 {
 	int carry = 0;
 	for (int i = 0; i < size; i++)
